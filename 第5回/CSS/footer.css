@@ -1,0 +1,22 @@
+/* ページ全体 */
+
+* {
+    margin:0;
+    padding:0;
+   }
+
+/* フッター適用 */
+
+body {
+    font-family:"Noto Sans JP", sans-serif;
+}
+
+footer {
+    background-color:#BEA574;
+    padding: 8px 0px 3px 0px;
+    width: 100%;
+}
+
+.foot {
+    text-align: center;
+}

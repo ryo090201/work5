@@ -1,0 +1,272 @@
+/* ページ全体 */
+
+* {
+    margin:0;
+    padding:0;
+   }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+
+  &:after {
+    content: "" !important;
+    position: absolute;
+    width: 60px; /* 背景画像の幅を必ず指定 */
+    height: 60px; /* 背景画像の高さを必ず指定 */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.swiper-button-next {
+  right: 60px;
+
+/* 次へ矢印の背景画像 */
+  &::after {
+background: transparent url(../kv/slide-btn-next.svg) no-repeat center / contain;
+margin-right: 100px;
+  }
+}
+
+.swiper-button-prev {
+  left: 60px;
+
+ /* 前へ矢印の背景画像 */
+  &::after {
+background: transparent url(../kv/slide-btn-prev.svg) no-repeat center / contain;
+margin-left: 100px;
+  }
+}
+
+.swiper-pagination-bullet{
+    /*サイズを変更*/
+    width: 16px;
+    height: 16px;
+    padding: 12px 12px;
+    /*ドットの色を変更*/
+    background-color:#BEA574 !important;
+  }
+
+  @media screen and (max-width: 500px) {
+    /* 570px以下に適用されるCSS */
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: absolute;
+    
+      &:after {
+        content: "" !important;
+        position: absolute;
+        width: 40px; /* 背景画像の幅を必ず指定 */
+        height: 40px; /* 背景画像の高さを必ず指定 */
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    
+}
+
+.copy_box{
+    text-align: center;
+}
+
+.copy {
+    font-size: 24px;
+    align-items:end;
+    height: 100px;
+    font-weight: bold;
+}
+.copy_red{
+    font-size: 60px;
+    color: red;  
+    font-weight: bold;
+    align-items:end;
+}
+
+.sch {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    align-items:end;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+}
+
+/* スケジュール */
+
+.block{
+    text-align: center;
+    padding:15px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    max-height:60px;
+    position: relative;
+}
+
+.block p {
+    box-shadow: 0 -3px 3px #d9d9d9;/*影*/
+    font-size: 16px;
+    font-weight:bold;
+    background-color:#d9d9d9;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    max-height:300px;
+    position: relative;
+}
+
+.box{
+    border-top: solid 3px #BEA574;
+    box-shadow: 0 3px 3px #d9d9d9;/*影*/
+    font-weight:bold;
+    font-size: 16px;
+    padding:40px;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1050px;
+    position: relative;
+}
+
+/* ホバーと枠内文字 */
+
+.web:hover{
+    background-color:#BEA574;
+    color: white;
+}
+
+#web{
+    background-color:#BEA574;
+    color: white;
+}
+
+.seo:hover{
+    background-color:#BEA574;
+    color: white;
+}
+
+#seo{
+    background-color:#BEA574;
+    color: white;
+}
+
+.apl:hover{
+    background-color:#BEA574;
+    color: white;
+}
+
+#apl{
+    background-color:#BEA574;
+    color: white;
+}
+
+.web_text{
+    display: none;
+}
+
+#web_text{
+    display:block;
+}
+
+.seo_text{
+    display: none;
+}
+
+#seo_text{
+    display:block;
+}
+
+.apl_text{
+    display: none;
+}
+
+#apl_text{
+    display:block;
+}
+
+.loca {
+    display: flex;
+    justify-content: center;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+}
+
+/* 問い合わせフォーム */
+
+.Form {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .Form-Item-Label-Required{
+    margin-left: 3px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    color:red;
+  }
+
+  .Form-Item-Label-Required_b{
+    margin-left: 3px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    color:gray;
+  }
+
+  .Form-Item{
+    padding:5px 0px;
+  }
+
+  .Form-Item-Input{
+    width: 100%;
+    height: 30px;
+  }
+
+  .Form-Btn{
+    width: 101%; 
+    height: 35px;
+    background-color:#BEA574;
+    color: white;
+    border-width:1px;
+  }
+
+  #errorMessage{
+    font-size: 10px;
+    color:red;
+  }
+
+  #btn{
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  input[type="submit"][disabled] {
+    opacity:0.5;
+}

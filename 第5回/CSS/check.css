@@ -1,0 +1,53 @@
+/* ページ全体 */
+
+* {
+    margin:0;
+    padding:0;
+   }
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.all{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.qa_q p{
+    margin: 48px 48px;
+}
+
+.qa_a div{
+    margin: 48px 48px;
+}
+
+.btn_ch{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_ch input{
+    margin: 24px 100px;
+}
+
+#back_btn{
+        width: 80px; 
+        height: 35px;
+        background-color:gray;
+        color: white;
+        border-radius:10px;
+        border-style: none;
+}
+
+#submit_btn{
+    width: 80px; 
+    height: 35px;
+    background-color:#BEA574;
+    color: white;
+    border-radius:10px;
+    border-style: none;
+  }
