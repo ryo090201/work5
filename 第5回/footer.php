@@ -12,7 +12,7 @@
 <body>
     <footer class="foot">
         <div class="foot">
-            <a href="./main.php">
+            <a href="./index.php">
                 <img src="../logo.png" width="100" alt="フッター">
             </a>  
         </div>        

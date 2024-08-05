@@ -129,6 +129,7 @@ margin-left: 100px;
 }
 
 .text{
+    padding:0px 10px 0px 10px;
     display: flex;
     justify-content: space-between;
     max-width: 1050px;

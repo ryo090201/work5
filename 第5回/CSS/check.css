@@ -8,6 +8,7 @@
 h2{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 
@@ -51,3 +52,37 @@ h2{
     border-radius:10px;
     border-style: none;
   }
+
+  @media screen and (max-width: 510px) {
+    /* 570px以下に適用されるCSS */
+    .btn_ch input{
+        margin: 24px 30px;
+    }
+
+    .qa_q p{
+        margin: 48px 10px;
+    }
+    
+    .qa_a div{
+        margin: 48px 10px;
+    }
+}
+
+  @media screen and (max-width: 400px) {
+    /* 570px以下に適用されるCSS */
+    .btn_ch input{
+        margin: 24px 30px;
+    }
+
+    h2{
+        margin-top: 60px;
+    }
+
+    .qa_q p{
+        margin: 48px 10px;
+    }
+    
+    .qa_a div{
+        margin: 48px 10px;
+    }
+}

@@ -12,3 +12,10 @@ p{
     font-weight: bold;
     padding: 20px 0px;
 }
+
+@media screen and (max-width: 400px) {
+    /* 570px以下に適用されるCSS */
+    p{
+        padding-top: 65px;
+    }
+}

@@ -80,6 +80,7 @@ header {
     }
 
     .header {
+        top:0;
         position: fixed;
         display: flex;
         padding: 3px 8px 3px 0px;
@@ -125,17 +126,17 @@ header {
     }
 
     .menu_list {
-        border-top: 1px solid #d7d7d7;
+        border-top: 1px solid white;
         max-width: 100%;
     }
     .menu_item {
-        border-bottom: 1px solid #d7d7d7;
+        border-bottom: 1px solid white;
     }
 
     .menu_link {
         display: block;
         padding: 13px 10px;
-        color: #d7d7d7;
+        color: white;
         text-align: center;
     }
     .header_menu-btn {

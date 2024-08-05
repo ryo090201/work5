@@ -13,19 +13,19 @@
     <div class="container">
         <header class="header">
             <div class="header_content">
-                <a href="./main.php">
+                <a href="index.php">
                     <img src="../logo.png" width="100" alt="ヘッダー">
                 </a>
                 <div class="header_menu">
                     <ul class="menu_list">
                         <li class="menu_item">
-                            <a class="menu_link" href="#schg">スケジュール</a>
+                            <a class="menu_link" href="index.php#schg">スケジュール</a>
                         </li>
                         <li class="menu_item">
-                            <a class="menu_link" href="#acss">アクセス</a>
+                            <a class="menu_link" href="index.php#acss">アクセス</a>
                         </li>
                         <li class="menu_item">
-                            <a class="menu_link" href="#resv">席予約</a>
+                            <a class="menu_link" href="index.php#resv">席予約</a>
                         </li>
                     </ul>
                 </div>
