@@ -105,6 +105,10 @@ margin-left: 100px;
     padding: 0px 0px 10px 0px;
 }
 
+.loca{
+  margin-bottom: 5px;
+}
+
 /* スケジュール */
 
 .block{
@@ -270,4 +274,22 @@ margin-left: 100px;
 
   input[type="submit"][disabled] {
     opacity:0.5;
+}
+
+@media screen and (max-width: 400px) {
+
+  .app{
+    padding-top: 45px;
+  }
+
+  .block{
+  text-align: center;
+    padding: 15px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    max-height: 60px;
+    position: relative;
+  }
 }

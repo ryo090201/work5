@@ -73,6 +73,8 @@ header {
 
 @media screen and (max-width: 400px) {
 
+
+
     .container {
         position: relative;
         overflow: hidden;
@@ -194,21 +196,6 @@ header {
 
     .kv_content p{
         font-size: 25px;
-    }
-    
-    .block {
-        align-items: center;
-        display: flex;
-        flex-flow: column;
-        justify-content:space-between;
-    }
-
-    .block p{
-        margin:5px;
-    }
-
-    .text{
-        margin-top: 130px;
     }
 
     .company_text{
